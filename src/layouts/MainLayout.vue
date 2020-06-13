@@ -28,8 +28,45 @@
           header
           class="text-grey-8"
         >
-          Menu
+          Symmetry454
         </q-item-label>
+        <q-item
+          clickable
+          :to="{ name: 'home' }"
+          exact
+        >
+          <q-item-section avatar>
+            <q-icon name="today" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>Calendar</q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-separator />
+        <q-item
+          clickable
+          :to="{ name: 'about' }"
+          exact
+        >
+          <q-item-section avatar>
+            <q-icon name="info" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>About</q-item-label>
+          </q-item-section>
+        </q-item>
+        <q-item
+          clickable
+          :to="{ name: 'license' }"
+          exact
+        >
+          <q-item-section avatar>
+            <q-icon name="menu_book" />
+          </q-item-section>
+          <q-item-section>
+            <q-item-label>License</q-item-label>
+          </q-item-section>
+        </q-item>
       </q-list>
     </q-drawer>
 
