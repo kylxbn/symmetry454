@@ -1,8 +1,19 @@
-# Symmetry454 (symmetry454)
+# Symmetry454
 
-Symmetry454 calendar
+This is a calendar app that uses the [Symmetry454](https://individual.utoronto.ca/kalendis/symmetry.htm)
+calendar instead of the usual Gregorian calendar.
 
-## Install the dependencies
+For now, it can show you a functioning Symmetry454 calendar, navigate between dates,
+and even show equivalent Symmetry454 dates for a given Gregorian date.
+
+While not yet implemented, in the future, this app is planned to have:
+
+* Event management such as birthdays and holidays
+* A variant implementattion of the [Swatch Internet Time](https://en.wikipedia.org/wiki/Swatch_Internet_Time) 
+* Alarms, countdown timers, et cetera
+
+
+### Install the dependencies
 ```bash
 yarn
 ```
